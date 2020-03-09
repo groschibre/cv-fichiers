@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+body, td {
+    background-color: #white;
+	background-image: url("Images/fond.jpg");
+	background-repeat:repeat;
+    color: #FFFFFF;
+    font: 1.0em "Trebuchet MS",Georgia,Arial;
+    text-align: left;
+}
+#cont_container {
+    width: 50%;
+}
+#container {
+    margin: 60px 0px;
+    width: 1000px;
+}
+#top_cont {
+    float: right;
+    width: 250px;
+}
+#cont {
+    background: url("medias/pagebg.jpg") no-repeat scroll 0 50% transparent;
+    float: right;
+    padding-left: 10px;
+    width: 700px;
+}
+#footer {
+    clear: both;
+    padding-top: 50px;
+    width: 100%;
+	text-align : center;
+}
+h1 {
+    border-bottom: 4px solid #FF7F50;
+	border-top:4px solid #FF7F50;
+	border-right:4px solid #FF7F50;
+	border-left:4px solid #FF7F50;
+    color: #EA6000;
+    font: 2.0em Georgia,Arial;
+    margin: 10px 0;
+    padding-bottom: 4px;
+    text-align: left;
+    width: 90%;
+}
+h2 {
+    border-top:4px inset #FF7F50;
+	border-right:4px inset #FF7F50;
+	border-bottom: 4px inset #FF7F50;
+	border-left: 4px inset #FF7F50; 
+    color: #EA6000;
+    font: 1.2em Georgia,Arial;
+    padding: 10px 0 3px;
+}
+a {
+    color: #C4AF7C;
+    text-decoration: none;
+}
+a:hover {
+    color: #6974C5;
+    text-decoration: underline;
+}
+img.photo {
+    border: 5px groove #FF7F50;
+    padding: 0px;
+	}
+ul {
+    list-style-type: square;
+    margin-top: 12px;
+}
+#enum {
+    list-style-type: none;
+}
+#enum li {
+    list-style-type: none;
+    margin-left: -12px;
+    margin-top: 12px;
+}
+.date {
+    border: 0 solid #CCCCCC;
+    display: block;
+    margin-top: 12px;
+    width: 160px;
+}
+.detail {
+    border: 0 solid #CCCCCC;
+    display: block;
+    margin-top: 12px;
+    padding-right: 6px;
+    width: 300px;
+}
+.qualif {
+    border: 0 solid #CCCCCC;
+    display: block;
+    margin-top: 12px;
+    padding-right: 6px;
+    width: 450px;
+}
+.lien {
+    border: 0 solid #CCCCCC;
+    display: block;
+    margin-top: 12px;
+    width: 150px;
+}
+.autre {
+    border: 0 solid #CCCCCC;
+    display: block;
+    margin-top: 10px;
+    width: 600px;
+}
+.autre_r {
+    border: 0 solid #CCCCCC;
+    margin-right: 10px;
+    width: 160px;
+}
+.exp, .etud {
+    margin: 12px 0;
+}
+.exp_date {
+    float: left;
+    width: 160px;
+}
+.exp_soc {
+    float: right;
+    width: 120px;
+}
+.exp_exp {
+    margin-left: 160px;
+    margin-right: 120px;
+    width: 340px;
+}
+.etud_date {
+    float: left;
+    width: 160px;
+}
+.etud_ecol {
+    float: right;
+    width: 120px;
+}
+.etud_etud {
+    margin-left: 160px;
+    margin-right: 120px;
+    width: 340px;
+}
+.text {
+    margin-top: 10px;
+}
